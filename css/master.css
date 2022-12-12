@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{margin: 0;padding: 0;text-decoration: none;list-style-type: none;}
+body{
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+header{
+    height: 50px;
+}
+section{
+    margin-bottom: 100px;
+}
+.container1{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+}
+.wrap1{
+    width: 1100px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+.box{background-color: #ec4929;display: flex;justify-content: center;align-items: center;}
+.box1{grid-area: 3 / 1 / 7 / 3;}
+.box2{grid-area: 1 / 3 / 4 / 5;}
+.box3{grid-area: 4 / 3 / 7 / 4;}
+.box4{grid-area: 1 / 5 / 3 / 6;}
+.box5{grid-area: 1 / 6 / 5 / 7;}
+.box6{grid-area: 1 / 1 / 3 / 3;}
+.box7{grid-area: 3 / 5 / 5 / 6;}
+.box8{grid-area: 5 / 5 / 7 / 7;}
+.box9{grid-area: 4 / 4 / 7 / 5;}
+
+.txt{
+    font-style: normal;
+}
+.txt1{
+    font-family: belda-normal,sans-serif;
+    font-weight: 600;
+}
+.txt2{
+    font-family: cheap-pine-sans,sans-serif;
+    font-weight: 400;
+}
+.txt3{
+    font-family: ofelia-display,sans-serif;
+    font-weight: 700;
+}
+.txt4{
+    font-family: ratiomodern, serif;
+    font-weight: 500;
+}
+.txt5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+.txt6{
+    font-family: ofelia-display,sans-serif;
+    font-weight: 100;
+}
+.txt_sub{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 80, 80);
+    background-color: rgb(24, 24, 24);
+}
+.txt_sub2{
+    display: none;
+}
+
+.fs1{
+    font-size: 4em;
+    line-height: 0.9em;
+    text-transform: uppercase;
+}
+.fs2{
+    font-size: 9em;
+}
+.fs3{
+    font-size: 6em;
+    line-height: 0.8em;
+}
+.fs4{
+    font-size: 3.5em;
+    letter-spacing: -0.07em;
+}
+.fs5{
+    font-size: 12em;
+}
+.fs6{
+    font-size: 12em;
+    letter-spacing: -0.08em;
+}
+.fs7{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.fs8-1{
+    font-size: 3em;
+    padding-top: 75px;
+    padding-right: 10px;
+}
+.fs8-2{
+    font-size: 8em;
+    letter-spacing: -0.1em;
+}
+.fs9{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 2em;
+    text-align: center;
+}
+
+.dc1{
+    font-size: 4rem;
+    letter-spacing: -0.1rem;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 142px;
+    margin-left: 10px;
+}
+.dc2{
+    font-weight: 700;
+}
+
+
+
+.container2{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.wrap2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 8px;
+    }
+
+
+.po_wrap{
+    width: 272px;
+    height: 332px;
+}
+.po_wrap:hover > .po_box{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.po_wrap:hover > .po_txt{
+    color: rgb(190, 190, 190);
+    transition: all 0.5s;
+}
+.po_box{
+    width: 272px;
+    height: 272px;
+    opacity: 0.4;
+}
+.po_txt{
+    width: 272px;
+    height: 60px;
+    background-color: rgb(44, 44, 44);
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 80, 80);
+    background-color: rgb(17, 17, 17);
+}
+
+/*--개별 이미지처리 Start--*/
+.ph00{background-image: url('../img/st00.png');}
+.ph01{background-image: url('../img/st01.png');}
+.ph02{background-image: url('../img/st02.png');}
+.ph03{background-image: url('../img/st03.png');}
+.ph05{background-image: url('../img/st05.png');}
+.ph06{background-image: url('../img/st06.png');}
+.ph07{background-image: url('../img/st07.jpg');}
+.ph08{background-image: url('../img/st08.png');}
+.ph11{background-image: url('../img/st11.png');}
+.ph12{background-image: url('../img/st12.png');}
+.ph13{background-image: url('../img/st13.png');}
+.ph14{background-image: url('../img/st14.jpg');}
+.ph17{background-image: url('../img/st17.png');}
+.ph18{background-image: url('../img/st18.png');}
+.ph19{background-image: url('../img/st19.png');}
+.ph20{background-image: url('../img/st20.jpg');}
+.ph21{background-image: url('../img/st21.png');}
+.ph22{background-image: url('../img/st22.png');}
+.ph24{background-image: url('../img/st24.png');}
+.ph25{background-image: url('../img/st25.png');}
+.ph26{background-image: url('../img/st26.png');}
+.ph27{background-image: url('../img/st27.png');}
+.ph28{background-image: url('../img/st28.png');}
+.ph29{background-image: url('../img/st29.png');}
+.ph30{background-image: url('../img/st30.png');}
+.ph31{background-image: url('../img/st31.png');}
+.ph32{background-image: url('../img/st32.png');}
+.ph34{background-image: url('../img/st34.png');}
+.ph35{background-image: url('../img/st35.png');}
+.ph36{background-image: url('../img/st36.png');}
+.ph37{background-image: url('../img/st37.png');}
+.ph38{background-image: url('../img/st38.png');}
+.ph39{background-image: url('../img/st39.png');}
+.ph41{background-image: url('../img/st41.png');}
+.ph42{background-image: url('../img/st42.png');}
+.ph43{background-image: url('../img/st43.png');}
+.ph44{background-image: url('../img/st44.jpg');}
+.ph45{background-image: url('../img/st45.png');}
+.ph46{background-image: url('../img/st46.png');}
+.ph47{background-image: url('../img/st47.png');}
+.ph48{background-image: url('../img/st48.png');}
+.ph49{background-image: url('../img/st49.png');}
+.ph52{background-image: url('../img/st52.png');}
+.ph53{background-image: url('../img/st53.png');}
+.ph54{background-image: url('../img/st54.jpg');}
+.ph55{background-image: url('../img/st55.png');}
+.ph56{background-image: url('../img/st56.png');}
+.ph57{background-image: url('../img/st57.png');}
+/*--개별 이미지처리 End--*/
+
+footer{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.ft01{
+    width: 998px;
+    height: 100px;
+    background-color: #ec4929;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ft02{
+    width: 100px;
+    height: 100px;
+    background-color: #ec4929;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ft03{
+    display: none;
+}
+
+.ani1{animation:ani1 2s infinite alternate both}
+@keyframes ani1{
+    0%{filter:blur(.01)}
+    100%{filter:blur(1px) opacity(0.5)}
+}
+
+.ani2{animation:ani2 3s infinite alternate both}
+@keyframes ani2{
+    0%{filter:blur(.01)}
+    100%{filter:blur(1px) opacity(0.5)}
+}
+
+.ani3{animation:ani3 4s infinite alternate both}
+@keyframes ani3{
+    0%{filter:blur(.01)}
+    100%{filter:blur(1px) opacity(0.5)}
+}
+
+.ani4{animation:ani4 5s infinite alternate both}
+@keyframes ani4{
+    0%{filter:blur(.01)}
+    100%{filter:blur(1px) opacity(0.5)}
+}
+
+.ani5{animation:ani5 6s infinite alternate both}
+@keyframes ani5{
+    0%{filter:blur(.01)}
+    100%{filter:blur(1px) opacity(0.5)}
+}
+
+.ani6{animation:ani6 7s infinite alternate both}
+@keyframes ani6{
+    0%{filter:blur(.01)}
+    100%{filter:blur(1px) opacity(0.5)}
+}
+
+
+
+
+.topwrap{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    bottom: 4vh;
+    right: 3vw;
+    background-color: rgb(37, 37, 37);
+}
+.top{
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.5;
+}
+.top:before{
+    content: '^';
+    position: absolute;
+    top: 0px;
+    left: 16px;
+}
+
+.topani{animation:topani 2s infinite alternate}
+@keyframes topani{
+    0%{opacity: 1;}
+    100%{opacity: 0.5;}
+}

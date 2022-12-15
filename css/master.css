@@ -192,6 +192,7 @@ section{
 .ph01{background-image: url('../img/st01.png');}
 .ph02{background-image: url('../img/st02.png');}
 .ph03{background-image: url('../img/st03.png');}
+.ph04{background-image: url('../img/st04.jpg');}
 .ph05{background-image: url('../img/st05.png');}
 .ph06{background-image: url('../img/st06.png');}
 .ph07{background-image: url('../img/st07.jpg');}
@@ -230,6 +231,8 @@ section{
 .ph47{background-image: url('../img/st47.png');}
 .ph48{background-image: url('../img/st48.png');}
 .ph49{background-image: url('../img/st49.png');}
+.ph50{background-image: url('../img/st50.gif');}
+.ph51{background-image: url('../img/st51.png');}
 .ph52{background-image: url('../img/st52.png');}
 .ph53{background-image: url('../img/st53.png');}
 .ph54{background-image: url('../img/st54.jpg');}
@@ -336,3 +339,5 @@ footer{
     0%{opacity: 1;}
     100%{opacity: 0.5;}
 }
+
+

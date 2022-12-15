@@ -116,7 +116,7 @@
         width: 94vw;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(26, 1fr);
+        grid-template-rows: repeat(25, 1fr);
         grid-column-gap: 2vw;
         grid-row-gap: 6px;
         margin: 0 auto;

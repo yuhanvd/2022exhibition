@@ -148,7 +148,7 @@ section{
 .wrap2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 4px;
     grid-row-gap: 8px;
     }
